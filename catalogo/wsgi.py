@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
 """
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'catalogo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'catalogo.settings')
 import os
 import sys
 import pathlib
