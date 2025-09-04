@@ -1,0 +1,17 @@
+{% extends "musica/base.html" %}
+{% block title %}Bandas - {{ genero_nombre }}{% endblock %}
+{% block content %}
+<a href="/" class="btn btn-outline-secondary btn-sm mb-3">← Volver a Géneros</a>
+<h1 class="mb-3">Bandas de {{ genero_nombre }}</h1>
+<div class="list-group">
+  {% for b in bandas %}
+    <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+       href="/{{ genero_slug }}/{{ b.slug }}/">
+      <span>{{ b.nombre }}</span>
+      <span class="badge bg-dark">{{ b.albums }} álbum(es)</span>
+    </a>
+  {% empty %}
+    <div class="alert alert-warning">Aún no hay bandas cargadas en este género.</div>
+  {% endfor %}
+</div>
+{% endblock %}

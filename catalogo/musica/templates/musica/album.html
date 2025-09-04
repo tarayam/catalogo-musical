@@ -1,0 +1,29 @@
+{% extends "musica/base.html" %}
+{% block title %}{{ album.titulo }} - {{ banda_nombre }}{% endblock %}
+{% block content %}
+{% load static %}
+<div class="d-flex gap-2 mb-3">
+  <a href="/" class="btn btn-outline-secondary btn-sm">← Géneros</a>
+  <a href="/{{ genero_slug }}/" class="btn btn-outline-secondary btn-sm">← Bandas de {{ genero_nombre }}</a>
+  <a href="/{{ genero_slug }}/{{ banda_slug }}/" class="btn btn-outline-secondary btn-sm">← Discografía</a>
+</div>
+
+<div class="row g-4">
+  <div class="col-12 col-md-5">
+    <img alt="portada" class="img-fluid rounded shadow" src="{% static album.portada %}">
+  </div>
+  <div class="col-12 col-md-7">
+    <h1 class="mb-1">{{ album.titulo }}</h1>
+    <p class="text-muted">Año: {{ album.anio }}</p>
+    <h5>Temas</h5>
+    <ol class="list-group list-group-numbered">
+      {% for tema, dur in album.temas %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>{{ tema }}</span>
+          <span class="badge bg-dark rounded-pill">{{ dur }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</div>
+{% endblock %}
