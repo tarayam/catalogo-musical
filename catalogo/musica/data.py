@@ -21,7 +21,7 @@ CATALOGO = {
                     "wish-you-were-here": {
                         "titulo": "Wish You Were Here",
                         "anio": 1975,
-                        "portada": "img/Wish You Were Here.webp",
+                        "portada": "img/wish_you_were_here.webp",
                         "temas": [
                             ("Shine On You Crazy Diamond (I–V)", "13:32"),
                             ("Welcome to the Machine", "7:31"),
@@ -48,7 +48,7 @@ CATALOGO = {
                     "selling-england-by-the-pound": {
                         "titulo": "Selling England by the Pound",
                         "anio": 1973,
-                        "portada": "img/selling england by the pound.jpg",
+                        "portada": "img/selling_england_by_the_pound.jpg",
                         "temas": [
                             ("Dancing with the Moonlit Knight", "8:02"),
                             ("I Know What I Like", "4:06"),
@@ -58,7 +58,7 @@ CATALOGO = {
                     "the-lamb-lies-down-on-broadway": {
                         "titulo": "The Lamb Lies Down on Broadway",
                         "anio": 1974,
-                        "portada": "img/the lamb lies down on broadway.jpg",
+                        "portada": "img/the_lamb_lies_down_on_broadway.jpg",
                         "temas": [
                             ("The Lamb Lies Down on Broadway", "4:52"),
                             ("In the Cage", "8:15"),
@@ -93,7 +93,7 @@ CATALOGO = {
                     "close-to-the-edge": {
                         "titulo": "Close to the Edge",
                         "anio": 1972,
-                        "portada": "img/close to the edge.jpg",
+                        "portada": "img/close_to_the_edge.jpg",
                         "temas": [
                             ("Close to the Edge", "18:12"),
                             ("And You and I", "10:09"),
@@ -118,7 +118,7 @@ CATALOGO = {
                     "in-the-court-of-the-crimson-king": {
                         "titulo": "In the Court of the Crimson King",
                         "anio": 1969,
-                        "portada": "img/in the court of the crimson king.jpg",
+                        "portada": "img/in_the_court_of_the_crimson_king.jpg",
                         "temas": [
                             ("21st Century Schizoid Man", "7:24"),
                             ("I Talk to the Wind", "6:04"),
@@ -163,7 +163,7 @@ CATALOGO = {
                     "moving-pictures": {
                         "titulo": "Moving Pictures",
                         "anio": 1981,
-                        "portada": "img/moving pictures.jpg",
+                        "portada": "img/moving_pictures.jpg",
                         "temas": [
                             ("Tom Sawyer", "4:33"),
                             ("Red Barchetta", "6:10"),
@@ -173,7 +173,7 @@ CATALOGO = {
                     "permanent-waves": {
                         "titulo": "Permanent Waves",
                         "anio": 1980,
-                        "portada": "img/Permanent Waves.jpg",
+                        "portada": "img/permanent_waves.jpg",
                         "temas": [
                             ("The Spirit of Radio", "4:57"),
                             ("Freewill", "5:23"),
@@ -195,7 +195,7 @@ CATALOGO = {
                     "abbey-road": {
                         "titulo": "Abbey Road",
                         "anio": 1969,
-                        "portada": "img/abbey road.jpeg",
+                        "portada": "img/abbey_road.jpeg",
                         "temas": [
                             ("Come Together", "4:20"),
                             ("Something", "3:03"),
@@ -206,7 +206,7 @@ CATALOGO = {
                     "sgt-peppers": {
                         "titulo": "Sgt. Pepper's Lonely Hearts Club Band",
                         "anio": 1967,
-                        "portada": "img/Sgt. Pepper's.png",
+                        "portada": "img/sgt_peppers.png",
                         "temas": [
                             ("Sgt. Pepper's Lonely Hearts Club Band", "2:02"),
                             ("With a Little Help from My Friends", "2:44"),
@@ -244,7 +244,7 @@ CATALOGO = {
                     "ray-of-light": {
                         "titulo": "Ray of Light",
                         "anio": 1998,
-                        "portada": "img/Ray of Light.jpg",
+                        "portada": "img/ray_of_light.jpg",
                         "temas": [
                             ("Drowned World/Substitute for Love", "5:09"),
                             ("Ray of Light", "5:50"),
@@ -255,7 +255,7 @@ CATALOGO = {
                     "confessions-on-a-dance-floor": {
                         "titulo": "Confessions on a Dance Floor",
                         "anio": 2005,
-                        "portada": "img/Confessions.jpg",
+                        "portada": "img/confessions.jpg",
                         "temas": [
                             ("Hung Up", "5:36"),
                             ("Sorry", "4:43"),
@@ -320,7 +320,7 @@ CATALOGO = {
                     "the-album": {
                         "titulo": "The Album",
                         "anio": 1977,
-                        "portada": "img/the album.jpg",
+                        "portada": "img/the_album.jpg",
                         "temas": [
                             ("Eagle", "5:51"),
                             ("Take a Chance on Me", "4:05"),
@@ -358,7 +358,7 @@ CATALOGO = {
                     "dua-lipa": {
                         "titulo": "Dua Lipa",
                         "anio": 2017,
-                        "portada": "img/dua lipa.jpg",
+                        "portada": "img/dua_lipa.jpg",
                         "temas": [
                             ("Genesis", "3:26"),
                             ("New Rules", "3:29"),
@@ -390,7 +390,7 @@ CATALOGO = {
                     "kind-of-blue": {
                         "titulo": "Kind of Blue",
                         "anio": 1959,
-                        "portada": "img/Kind_of_Blue.jpg",
+                        "portada": "img/kind_of_blue.jpg",
                         "temas": [
                             ("So What", "9:22"),
                             ("Freddie Freeloader", "9:46"),
@@ -504,7 +504,7 @@ CATALOGO = {
                     "ellington-at-newport": {
                         "titulo": "Ellington at Newport",
                         "anio": 1956,
-                        "portada": "img/DUKE_ELLINGTON_ELLINGTON+AT+NEWPORT-362802.jpg",
+                        "portada": "img/duke_ellington_ellington_at_newport_362802.jpg",
                         "temas": [
                             ("Festival Junction", "3:26"),
                             ("Blues to Be There", "3:32"),
