@@ -12,12 +12,19 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-g6d*ewf+006=h4ia)%u+%w_!b=s@+w#j0*@r@2e+=ntxz3$n#1'
-DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+# Detect environment: if RENDER environment variable is set, use production settings
+RENDER_ENV = None
+if RENDER_ENV:
+    DEBUG = False
+    ALLOWED_HOSTS = ['catalogo-musical.onrender.com']
+else:
+    DEBUG = True
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'catalogo-musical.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
