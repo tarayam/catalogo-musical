@@ -4,6 +4,7 @@ import os
 import sys
 import pathlib
 BASE_DIR = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(BASE_DIR))
 sys.path.insert(0, str(BASE_DIR / 'catalogo'))
 
 def main():
