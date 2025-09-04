@@ -1,1 +1,1 @@
-web: gunicorn catalogo.wsgi
+web: gunicorn catalogo.catalogo.wsgi
