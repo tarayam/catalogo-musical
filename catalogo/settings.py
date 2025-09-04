@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-g6d*ewf+006=h4ia)%u+%w_!b=s@+w#j0*@r@2e+=ntxz3$n#1'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['catalogo-musical.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
