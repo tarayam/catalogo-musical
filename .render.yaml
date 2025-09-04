@@ -1,0 +1,12 @@
+# Este archivo .render.yaml configura el servicio para Render.com
+services:
+  - type: web
+    name: catalogo-musical
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn catalogo.wsgi
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: catalogo.settings
+      - key: PYTHON_VERSION
+        value: 3.10
